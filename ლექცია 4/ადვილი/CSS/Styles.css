@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Bebas;
+    src: url(../Fonts/BebasNeue-Regular.ttf);
+}
+
+.card{
+    width: 280px;
+    box-shadow: 3px 3px 6px gray;
+    margin: 10px;
+    display: inline-block;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-headers h4{
+    margin: 0px;
+    text-align: center;
+}
+
+.tomatotxt{
+    color: tomato;
+    font-family: Bebas;
+}
+
+.card-body{
+    margin: 10px;
+}
+
+.btn{
+    background-color: tomato;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 5px;
+}

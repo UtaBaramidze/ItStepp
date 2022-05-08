@@ -1,0 +1,78 @@
+.cards{
+    width:100%;
+    height: 100vh;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+    "first second third"
+    "fourth fifth third";
+}
+.galery div{
+    width:100%;
+    height:100%;
+}
+.card1{
+    background-size: cover;
+    background-position: 43vh;
+    grid-area: first;
+}
+.card2{
+    background-size: cover;
+    background-position: 43vh;
+    grid-area: second;
+}
+.card3{
+    background-size: cover;
+    background-position: 43vh;
+    grid-area: third;
+}
+.card4{
+    background-size: cover;
+    background-position: 43vh;
+    grid-area: fourth;
+}
+.card5{
+    background-size: cover;
+    background-position: 43vh;
+    grid-area: fifth;
+}
+.card{
+    position: relative;
+}
+.card img{
+    height: 300px;
+}
+.card .card-body{
+    position: absolute;
+    top: 188px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+}
+.card .card-body.a{
+    width: 382px;
+}
+.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card3 .card{
+    height: 500px;
+    width: 400px;
+}
+.card3 .card img{
+    height: 300px;
+    margin-top: 50px;
+}
+.card3 .card .card-body{
+    position: absolute;
+    top: 387px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+}
+.card3 .card .card-body.a{
+    width: 398px;
+}

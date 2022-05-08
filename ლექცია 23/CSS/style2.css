@@ -1,0 +1,39 @@
+.paroli{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forma{
+    position: relative;
+}
+.loCk{
+    background-color: rgb(0, 204, 255);
+    color: white;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+input{
+    position: absolute;
+    left: 49px;
+    bottom: -2.3px;
+    height: 50px;
+    width: 250px;
+    border: 1px solid rgb(0, 204, 255);
+    outline: none;
+}
+#ChangeEye{
+    position: absolute;
+    left: 260px;
+    top: 3px;
+    font-size: 25px;
+    color: rgb(0, 204, 255);
+}
+
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear
+{
+    display: none;
+}

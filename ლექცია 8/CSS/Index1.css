@@ -1,0 +1,36 @@
+.div2{
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-color: whitesmoke;
+}
+
+.txt{
+    margin-top: 200px;
+    margin-left: 115px;
+    border: none;
+    border-bottom: 2px solid gray;
+    height: 25px;
+    outline: none;
+    transition: 0.5s;
+}
+
+input[name="txt"] + span{
+    position: absolute;
+    left: 600px;
+    top: 210px;
+    color: gray;
+    transition: 0.5s;
+}
+
+input[name="txt"]:focus + span{
+    position: absolute;
+    color: blue;
+    top: 185px;
+    left: 595px;
+}
+
+input[name="txt"]:focus{
+    border-bottom: 2px solid blue;
+}

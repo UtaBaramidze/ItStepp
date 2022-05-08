@@ -1,0 +1,61 @@
+input::placeholder{
+    color: white;
+    letter-spacing: 2px;
+}
+input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    pointer-events: none;
+    transition: all .6s;
+    width: 0px;
+    border-radius: 50px;
+    padding: 7px;
+    box-shadow: -10px 0px 30px #dc143c;
+    background-color: #dc143c;
+    border: none;
+    color: white;
+}
+input.show{
+    width: 250px;
+    transition: all .6s;
+    pointer-events: all;
+    opacity: 1;
+}
+input:focus{
+    color:white;
+    outline: none;
+    box-shadow: none;
+}
+form{
+    margin-top: 20%;
+}
+.searchBtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    background-color: #dc143c;
+    transition: all .6s;
+}
+.searchBtn.show{
+    left: 100%;
+    transition: all .6s;
+    background-color: rgb(0, 0, 0);
+}
+.searchBtn:hover{
+    color: white;
+}
+.searchBtn:focus{
+    box-shadow: none;
+    outline: none;
+}

@@ -1,0 +1,40 @@
+input[type="checkbox"]{
+    display: none;
+}
+
+.chkbx{
+    position: relative;
+    cursor: pointer;
+}
+
+.chkbx .checkSpan{
+    display: inline-block;
+    width: 170px;
+    height: 70px;
+    border: 4px solid gray;
+    background-color: grey;
+    border-radius: 8px;
+    
+}
+
+.chkbx .checkSpan:before{
+    content:"";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    top: -55px;
+    left: 9px;
+    transition: 0.9s;
+}
+
+.chkbx :checked ~ .checkSpan{
+    background-color: rgb(85, 199, 9);
+    border-color: rgb(85, 199, 9);
+    transition: 0.9s;
+}
+
+.chkbx :checked ~ .checkSpan:before{
+    left: 109px;
+}

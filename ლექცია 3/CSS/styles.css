@@ -1,0 +1,25 @@
+@font-face {
+    font-family:Bebas;
+    src: url(../Fonts/BebasNeue-Regular.ttf);
+}
+body{
+    background-image: url(../Pictures/wp7254130.jpg);
+    background-size: cover;
+}
+
+.contentCenter{
+    height: 530px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+    margin-inline: 250px;
+}
+
+.title{
+    font-family:Bebas;
+}
+
+.hidden{
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(90deg, rgba(9,121,61,1) 0%, rgba(4,164,143,1) 50%, rgba(0,138,255,1) 100%);
+}
+
+.Forma{
+    height: 465px;
+    width: 650px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+form{
+    padding: 50px;
+}
+
+input[name="Name"]{
+    height: 30px;
+    width: 250px;
+}
+
+input[name="Name"] + span{
+    position: absolute;
+    left: 420px;
+    top: 128px;
+    color: gray;
+}
+
+input[name="Name"]:focus + span{
+    top: 90px;
+    left: 410px;
+    color: rgb(26, 25, 25);
+}
+
+input[name="Email"]{
+    margin-left: 10px;
+    height: 30px;
+    width: 250px;
+}
+
+input[name="Email"] + span{
+    position: absolute;
+    left: 690px;
+    top: 128px;
+    color: gray;
+}
+
+input[Name="Email"]:focus + span{
+    position: absolute;
+    left: 680px;
+    top: 90px;
+    color: rgb(26, 25, 25);
+}
+
+input[name="Websites"]{
+    height: 30px;
+    width: 522px;
+}
+
+input[name="Message"]{
+    height: 80px;
+    width: 522px;
+}
+
+input[type="button"]{
+    width: 90px;
+    height: 35px;
+    display: block;
+    margin: auto;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,211,255,1) 0%, rgba(9,121,65,1) 100%);
+    border: none;
+}

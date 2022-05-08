@@ -1,0 +1,77 @@
+@font-face {
+    font-family: ariali;
+    src: url(../Fonts/arial_geo.ttf);
+}
+@font-face {
+    font-family: unicode;
+    src: url(../Fonts/3d_unicode.ttf);
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.center{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+.form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px 50px;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgb(255, 45, 45);
+    overflow-y: hidden;
+}
+.Main{
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    text-indent: 15px;
+    background-color: rgb(255, 200, 200);
+    border: 2px solid red;
+    font-family: unicode;
+    font-weight: bold;
+}
+.Main:focus{
+    outline: none;
+    border: 2px solid red;
+    background-color: rgb(255, 200, 200);
+}
+label{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: ariali;
+}
+button{
+    margin-left: 20px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: rgb(255, 200, 200);
+    border: 2px solid red;
+    font-family: ariali;
+    font-weight: bold;
+}
+.ToDos{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.task{
+    font-family: ariali;
+    color: red;
+    font-weight: bold;
+}
+input + span{
+    margin-left: 5px;
+}
+.task :checked + span{
+    color: green;
+}

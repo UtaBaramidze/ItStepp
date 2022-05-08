@@ -1,0 +1,8 @@
+.nav-link:hover, .navbar-brand:hover{
+    color: black !important;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}

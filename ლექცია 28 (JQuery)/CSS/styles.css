@@ -1,0 +1,40 @@
+.Contenti{
+    height: 70vh;
+    background-color: yellow;
+}
+.class1{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+.class2{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+}
+.class3{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    display: none;
+}
+footer{
+    margin-top: 20px;
+    background-color: rgb(226, 226, 226);
+    height: 77.9vh;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.toggleDiv{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:100px;
+    height:100px;
+    background-color:blue;
+}

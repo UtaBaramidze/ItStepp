@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Barlow;
+    src: url(../Fonts/Barlow-Regular.ttf);
+}
+@font-face {
+    font-family: Boogaloo;
+    src: url(../Fonts/Boogaloo-Regular.ttf);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1d1d1d;
+    background-image: url(../IMG/Vector\ \ \(1\).png);
+}
+.content .logoPhoto .blackHared{
+    height: 80vh;
+    width: 60vh;
+    margin-top: 20vh;
+    margin-left: 25vh;
+}
+.logo{
+    position: absolute;
+    top: 240px;
+    left: 270px;
+    height: 28vh;
+}
+.v1{
+    position: absolute;
+    height: 10vh;
+    top: 490px;
+    left: 310px;
+}
+.v2{
+    position: absolute;
+    height: 5vh;
+    top: 250px;
+    left: 170px;
+}
+.v3{
+    position: absolute;
+    height: 9vh;
+    top: 470px;
+    left: 480px;
+}
+.v4{
+    position: absolute;
+    height: 6vh;
+    top: 95px;
+    left: 160px;
+}
+.v5{
+    position: absolute;
+    height: 8vh;
+    top: 50px;
+    left: 40px;
+}
+.v6{
+    position: absolute;
+    height: 7vh;
+    top: 80px;
+    left: 475px;
+}
+.v7{
+    position: absolute;
+    height: 7vh;
+    top: 10px;
+    left: 335px;
+}
+.v8{
+    position: absolute;
+    height: 9vh;
+    top: 150px;
+    left: 295px;
+}
+.v9{
+    position: absolute;
+    height: 8vh;
+    top: 460px;
+    left: 105px;
+}
+.logoPhoto{
+    display: inline-block;
+}
+.txtWords{
+    display: inline-block;
+    position: absolute;
+    top: 125px;
+    left: 630px;
+}
+.navbar{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+.navbar-li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar-link{
+    color: white;
+    text-decoration: none;
+    font-family: Barlow;
+    font-weight: 700;
+    padding: 11px 0px;
+}
+.margins{
+    padding: 11px 10px !important;
+}
+.txtWords h1{
+    font-family: Boogaloo;
+    color: #e8ab36;
+    font-weight: 400;
+}
+.txtWords .inputi{
+    width: 365px;
+    height: 30px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border: none;
+}
+.txtWords .inputi:focus{
+    outline: none;
+}
+.txtWords button{
+    font-family: Boogaloo;
+    display: block;
+    background-color: #ce3032;
+    width: 365px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+.txtWords p{
+    padding-top: 10px;
+    width: 365px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: Barlow;
+}
+.txtWords h2{
+    font-size: 25px;
+    line-height: 59px;
+    text-decoration: underline;
+    color: #e8ab36;
+    font-weight: 400;
+    font-family: Boogaloo;
+}

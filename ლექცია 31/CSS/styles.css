@@ -1,0 +1,55 @@
+.Cards{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    display: inline-block;
+}
+.Cart{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 3px solid black;
+    height: 275px;
+
+    display: flex;
+    justify-content: center;
+}
+.parts{
+    box-shadow: 1px 1px 30px 1px black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+    overflow-y: scroll;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+tr{
+    display: block;
+}
+tr .Name{
+    color:black;
+    font-weight: bolder;
+}
+tr .Price{
+    color: black;
+    font-weight: bolder;
+}
+tr .DelBTn{
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+tr img{
+    height: 100px;
+    cursor: pointer;
+}
+.DelBTnn{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}

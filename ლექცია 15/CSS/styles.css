@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(../Fonts/CinzelDecorative-Regular.ttf);
+}
+@font-face {
+    font-family: Amiri;
+    src: url(../Fonts/Amiri-Regular.ttf);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1280px;
+    max-width: 100%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+}
+header{
+    height: 100vh;
+    background-image: url(../IMG/Photo-Overlay.png);
+    background-image: url(../IMG/Photo2.png);
+    background-color: rgba(0, 0, 0, 0.950);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header img{
+    position: relative;
+    left: 580px;
+    top: 20px;
+}
+header .txts{
+    text-align: center;
+    position: absolute;
+    left: 520px;
+    top: 240px;
+    color: white;
+    font-weight: 900;
+
+}
+header .txts h1, h3{
+    font-family: Cinzel;
+}
+header .txts p{
+    font-family: Amiri;
+    color: #cdb378;
+}
+.scrollDown{
+    text-decoration: none;
+    color: #cdb378;
+    font-family: Amiri;
+    text-align: center;
+    position: absolute;
+    left: 635px;
+    top: 85vh;
+    cursor: pointer;
+}
+.scrollDown i{
+    border: 1px solid #cdb378;
+    border-radius: 10px;
+}
+.section1{
+    background-color: #232615;
+    height: 500px;
+}
+.section1 .txts{
+    display: inline-block;
+    position: relative;
+    bottom: 280px;
+    left: 170px;
+
+}
+.section1 h1{
+    font-family: Cinzel;
+    font-weight: 400;
+    color: white;
+}
+.section1 p{
+    font-family: Amiri;
+    font-weight: 400;
+    color: #cdb378;
+}
+.section1 img{
+    width: 325px;
+    height: 400px;
+    object-fit: cover;
+    object-position: right;
+    position: relative;
+    left: 369px;
+    bottom: 25px;
+}
+.section2{
+    background-color: #232615;
+    position: relative;
+    bottom: 300px;
+    width: 1170px;
+    height: 300px;
+    box-shadow: -2px 0px 150px 20px black;
+}
+.section2 .txts{
+    margin-left: 170px;
+    padding-top: 70px;
+}
+.section2 h1{
+    font-family: Cinzel;
+    font-weight: 400;
+    color: #cdb378;
+    
+}
+.section2 p{
+    font-weight: Amiri;
+    font-weight: 400;
+    color: #b4ba98;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.section2 button{
+    width: 142px;
+    height: 36px;
+    background-color: #272a18;
+    border: 1px solid #404429;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.content{
+    position: relative;
+    bottom: 300px;
+}
+.content .botli{
+    position: absolute;
+    height: 590px;
+    width: 150px;
+    left: 880px;
+    bottom: 430px;
+    
+}
+.content .kacuriKaci{
+    height: 565px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.content .txts{
+    position: absolute;
+    top: 240px;
+    left: 850px;
+}
+.content h2{
+    font-size: 30px;
+    color: #1a1c0f;
+    font-family: Cinzel;
+}
+footer{
+    position: absolute;
+    top: 1690px;
+    width: 1349px;
+}
+footer .backGround{
+    width: 100%;
+    height: 2240px;
+    object-fit: cover;
+    object-position: bottom;
+}
+footer .txt{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+footer .txt h1{
+    font-family: Cinzel;
+    color: #cdb378;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 46px;
+}
+.ismasdno{
+    margin-bottom: 50px;
+}
+footer .txt p{
+    font-family: Amiri;
+    color: #b4ba98;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 31px;
+}
+footer .WindowedBeer{
+    width: 629px;
+    height: 648px;
+    position: absolute;
+    left: 720px;
+    bottom: 1700px;
+    object-fit: cover;
+    object-position: center;
+}
+footer .txts{
+    text-align: center;
+    position: absolute;
+    top: 700px;
+    left: 320px;
+}
+footer .txts h1{
+    font-size: 46px;
+    line-height: 38px;
+    color: #cdb378;
+    font-weight: 400;
+    font-family: Cinzel;
+}
+footer .txts p{
+    font-size: 15px;
+    line-height: 31px;
+    color: #b4ba98;
+    font-weight: 400;
+    font-family: Amiri;
+}
+footer .txts button{
+    width: 142px;
+    height: 36px;
+    border: 1px solid #404429;
+    background-color: #1a1c0f;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    font-family: Amiri;
+}

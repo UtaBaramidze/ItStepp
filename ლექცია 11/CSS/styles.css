@@ -1,0 +1,353 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    box-shadow: 3px 3px 3px gray;
+}
+
+nav .row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    margin-left: auto;
+}
+
+.navbar li{
+    display: inline-block;
+    position: relative;
+}
+
+.navbar li a{
+    padding: 10px;
+    font-family: -webkit-pictograph;
+    color: rgb(49, 49, 49);
+    display: inline-block;
+}
+
+.logo{
+    width: 170px;
+}
+
+.dropdown{
+    position: absolute;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid grey;
+    padding: 5px;
+    box-shadow: 1px 1px 5px gray;
+    display: none;
+}
+
+.drop-list:hover .dropdown{
+    display: block;
+    z-index: 1;
+}
+
+header .container .row img{
+    margin-top: 10px;
+    height: 500px;
+    width: 400px;
+}
+
+header .container .row{
+    position: relative;
+    border-bottom: 3px solid rgba(211, 208, 208);
+}
+
+.txts{
+    position: absolute;
+    top: 150px;
+    right: 80px;
+    display: inline-block;
+    height: 200px;
+    width: 500px;
+    background:rgb(211, 208, 208);
+    border: 2px solid white;
+    outline: 15px solid rgb(211, 208, 208);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container .row .txts h3{
+    font-family: -webkit-pictograph;
+    font-size: 50px;
+    color: rgb(56, 56, 56);
+}
+
+header .container .row .txts p{
+    font-family: -webkit-pictograph;
+    color: gray;
+}
+
+.Nav2{
+    margin-top: 70px;
+    font-family: -webkit-pictograph;
+}
+
+.Nav2 li{
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Nav2 li:hover{
+    background-color: grey;
+}
+
+.pictures .row{
+    width: 100%;
+}
+
+.pictures .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-3{
+    margin-top: 20px;
+    display: inline-block;
+    width: 32%;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+
+.photo5{
+    width: 100%;
+    /* height: 280px; */
+}
+
+.card-body{
+    font-family: -webkit-pictograph;
+    text-align: center;
+    padding: 13px;
+}
+
+/* აქ სიმაღლეს რომ ვუმატებ რაღაც სწორად არ მუშაობს ამიტომ ასე დავტოვე
+.pictures .row .col-3:nth-child(2) img{
+    height: 300px;
+} */
+
+.kantaineri{
+    width: 100%;
+    background-color: rgb(211, 208, 208);
+}
+
+.Blogs{
+    position: relative;
+}
+
+.Blogs .container{
+    margin-top: 100px;
+}
+
+.Blogs .container .row .col-3 img{
+    width: 100%;
+}
+
+.Blogs .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .container .row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .container .row p{
+    font-family: -webkit-pictograph;
+    display: inline-block;
+    color: grey;
+    padding: 20px;
+    cursor: pointer;
+}
+
+footer .container .row p:hover{
+    background-color: whitesmoke;
+}
+
+.firsti{
+    margin-right: auto;
+}
+
+.upArrow a{
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.700);
+    color: white;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+.burgerSpan{
+    display:none;
+    /* transition:ease-out .6s; */
+    cursor:pointer;
+
+}
+.burgerSpan + input{
+display:none;
+}
+.burgerSpan svg{
+    color:black;
+    width:40px;
+    height:40px;
+    transition: .6s;
+}
+
+
+@media (max-width:1200px){
+    .txts{
+        top: 150px;
+        right: 20px;
+        height: 200px;
+        width: 450px;
+    }
+}
+
+@media (max-width:940px){
+    .col-3{
+        width: 48%;
+    }
+
+    header .container .row img{
+        height: 450px;
+        width: 350px;
+    }
+}
+
+@media (max-width:880px){
+    .burgerSpan{
+        display:block;
+    }
+
+    nav .row{
+        position:relative;
+    }
+    .navbar{
+        position:absolute;
+        width:100%;
+        height:fit-content;
+        background-color:rgb(211, 208, 208);
+        flex-direction: column;
+        top:44px;
+        display:none;
+        transition: left .6s linear;
+
+    }
+
+    
+
+    .navbar li a{
+        width: 200px;
+        text-align: center;
+        display:block;
+        margin:auto;
+        transition:ease-out .6s;
+    }
+
+    .navbar li{
+        display:block;
+    }
+
+    #burgermenu:checked + .navbar{
+        display:block;
+        transition: left .6s linear;
+
+
+    }
+
+
+    header .container .row img{
+        display: none;
+    }
+
+    header .container .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 290px;
+    }
+
+    .txts{
+        z-index: -1;
+        text-align: center;
+        position: unset;
+    }
+
+    .firsti{
+        margin: auto;
+    }
+
+    footer .container .row .chkaa{
+        display: none;
+    }
+}
+
+@media (max-width:545px){
+    .Nav2 li{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width:495px){
+    .pictures .container .row{
+        display: flex;
+        justify-content: center;
+    }
+    .col-3{
+        width: 60%;
+    }
+
+    .Blogs .container .row{
+        display: flex;
+        justify-content: center;
+    }
+
+    .txts{
+        height: 150px;
+        width: 350px;
+    }
+}
+
+@media (max-width:400px){
+    .txts{
+        height: 200px;
+        width: 300px;
+    }
+}

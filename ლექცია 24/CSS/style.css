@@ -1,0 +1,30 @@
+button{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.inputi{
+    margin-bottom: 2.5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    outline: none;
+    border: 1px solid rgb(48, 48, 253);
+    width: 220px;
+    height: 30px;
+}
+.labeli{
+    background-color: rgb(233, 56, 56);
+    color: white;
+    padding: 1px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+}
+.inputi.Del{
+    display: none !important;
+}
+.labeli.Del{
+    display: none !important;
+}
+br.Del{
+    display: none !important;
+}

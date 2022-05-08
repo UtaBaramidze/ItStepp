@@ -1,0 +1,59 @@
+.btn{
+    position: absolute;
+    top: 1vh;
+    left: 1.5vh;
+    font-size: 45px;
+    z-index: 1;
+    color: aqua;
+    transition: .4s;
+    transform: rotate(-180deg);
+}
+.btn:hover{
+    color: aqua;
+}
+.btn.clicked{
+    position: absolute;
+    top: 1vh;
+    left: 43vh;
+    font-size: 36px;
+    z-index: 1;
+    color: black;
+    transition: .7s;
+    transform: rotate(180deg);
+}
+.sideBar{
+    height: 100vh;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(-101%);
+    transition: .7s;
+}
+.sideBar.active{
+    opacity: 1;
+    transform: translateX(0);
+    transition: .7s;
+}
+.sideBar ul{
+    margin: 0;
+}
+.sideBar li{
+    list-style: none;
+    font-size: 25px;
+}
+.sideBar li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: all .7s;
+    background-color: white;
+    padding: 25px 0px;
+    width: 49.6vh;
+}
+.sideBar li a:hover{
+    padding-left: 20px;
+    background-color: gray;
+    transition: all .7s;
+}
